@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>FutbolBot App</title>
+</head>
+<body>
+  <div id="app">
+    <header>
+      <h1>
+        FutbolBot
+      </h1>
+      <h1>
+        El teu assistent intel·ligent sobre La Lliga, Champions i més.
+      </h1>
+    </header>
+    <nav>
+      <ul>
+        <li>
+          <a href="#" onclick="changeContent('home')">
+            Inici
+          </a>
+        </li>
+        <li>
+          <a href="#" onclick="changeContent('about')">
+            Sobre el Bot
+          </a>
+        </li>
+        <li>
+          <a href="#" onclick="changeContent('chat')">
+            Parla amb el Bot
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <div id="content">
+        <!-- El contingut es carrega aquí via JavaScript -->
+      </div>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
