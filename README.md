@@ -16,4 +16,4 @@ L’objectiu principal del projecte és crear una pàgina web que permeti als us
 El projecte utilitzarà tecnologies web i un chatbot programat en **Python**, facilitant l’escalabilitat i el manteniment del sistema.
 
 ## Estat del projecte
-Actualment, el projecte es troba en fase de desenvolupament.
+Desenvolupat.
