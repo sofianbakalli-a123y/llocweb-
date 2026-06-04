@@ -1,0 +1,132 @@
+/* Estils base*/
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+#app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+header {
+  /* INSTRUCCIÓ PAS 3: Degradat verdós */
+  background: linear-gradient(135deg, #1b5e20, #4caf50); 
+  color: white;
+  text-align: center;
+  padding: 1em;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+nav {
+  background-color: #003300; /* Verd gespa fosc */
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+nav li {
+  margin: 0;
+}
+nav a {
+  text-decoration: none;
+  color: #fff;
+  padding: 1em;
+  display: block;
+  transition: background-color 0.3s ease;
+}
+nav a:hover {
+  background-color: #4caf50;
+}
+main {
+  flex: 1;
+  padding: 1em;
+}
+#content {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#content h2 {
+  color: #2f8d46; /* Verd títol */
+  text-align: center;
+}
+#content p {
+  text-align: center;
+  font-size: 1.1em;
+}
+#content img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  margin: 0 auto 20px auto;
+  display: block;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  border: 3px solid #2F8D46;
+}
+
+/* --- ESTILS NOUS PER AL XATBOT (Instruccions Pas 4 i 5) --- */
+/* Això substitueix l'estil del formulari antic per un de xat */
+.chat-window {
+  max-width: 500px;
+  margin: 20px auto;
+  background-color: #e8f5e9;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #c8e6c9;
+}
+#chat-messages {
+  height: 300px;
+  padding: 20px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #fff;
+}
+.msg-bubble {
+  padding: 10px 15px;
+  border-radius: 20px;
+  max-width: 80%;
+  font-size: 0.95em;
+}
+.bot-msg {
+  background-color: #f1f1f1;
+  color: #333;
+  align-self: flex-start;
+  border-bottom-left-radius: 2px;
+}
+.user-msg {
+  background-color: #4caf50;
+  color: white;
+  align-self: flex-end;
+  border-bottom-right-radius: 2px;
+}
+.chat-input-area {
+  display: flex;
+  border-top: 1px solid #ccc;
+}
+.chat-input-area input {
+  flex: 1;
+  padding: 15px;
+  border: none;
+  outline: none;
+}
+.chat-input-area button {
+  padding: 0 20px;
+  background-color: #2e7d32;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+.chat-input-area button:hover {
+  background-color: #1b5e20;
+}
